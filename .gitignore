@@ -1,0 +1,20 @@
+# Ignore downloaded/exported large weights
+models/
+
+# Ignore compiled binary executables in bin/
+bin/tinyllama_runner
+bin/test_*
+test/test_local_spill
+
+# Temporary objects
+build/
+*.o
+*.so
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System / IDE
+.DS_Store
+.vscode/
